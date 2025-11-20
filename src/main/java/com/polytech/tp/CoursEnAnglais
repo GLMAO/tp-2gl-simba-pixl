@@ -5,13 +5,16 @@ public class CoursEnAnglais extends CoursDecorator {
         super(cours);
     }
 
-    @Override
     public String getDescription() {
-        return coursDecorated.getDescription() + " (En anglais)";
+        // TODO Auto-generated method stub
+        
+        return super.getDescription() + " (En Anglais)";
+        
     }
-
     @Override
     public double getDuree() {
-        return coursDecorated.getDuree();
+        // TODO Auto-generated method stub
+        
+        return super.getDuree();
     }
 }

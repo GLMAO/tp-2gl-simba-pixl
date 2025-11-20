@@ -7,11 +7,15 @@ public class CoursEnLigne extends CoursDecorator {
 
     @Override
     public String getDescription() {
-        return coursDecorated.getDescription() + " (En ligne)";
+        // TODO Auto-generated method stub
+        
+        return super.getDescription() + " (En ligne)";
+        
     }
-
     @Override
     public double getDuree() {
-       return coursDecorated.getDuree();
-    };
+        // TODO Auto-generated method stub
+        
+        return super.getDuree();
+    }
 }

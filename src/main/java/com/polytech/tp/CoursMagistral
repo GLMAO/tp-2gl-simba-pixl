@@ -8,11 +8,16 @@ public class CoursMagistral extends CoursDecorator {
 
     @Override
     public String getDescription() {
-        return coursDecorated.getDescription() + " (Magistral)";
+        // TODO Auto-generated method stub
+        
+        return super.getDescription() + " (Magistral)";
+        
     }
 
     @Override
     public double getDuree() {
-        return coursDecorated.getDuree();
+        // TODO Auto-generated method stub
+        
+        return super.getDuree();
     }
 }

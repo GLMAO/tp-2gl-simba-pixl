@@ -7,9 +7,11 @@ public abstract class CoursDecorator implements ICours {
         this.coursDecorated = cours;
     }
     
-    @Override
-    public abstract String getDescription();
-    
-    @Override
-    public abstract double getDuree();
+    public String getDescription(){
+        return coursDecorated.getDescription();
+    };
+   
+    public double getDuree(){
+        return coursDecorated.getDuree();
+    };
 }
